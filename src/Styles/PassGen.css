@@ -1,0 +1,85 @@
+.passBox {
+    background-color: rgb(116, 113, 113);
+    padding: 55px;
+    border-radius: 35px;
+    margin-top: 20%;
+}
+
+.passGenText {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.text {
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+.textBox {
+    padding: 15px;
+    border: none;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    outline: none;
+}
+
+.passShow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    padding: 15px;
+    border: none;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    background-color: orangered;
+    color: white;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(244, 74, 11);
+}
+
+.passControls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 16px;
+}
+
+.rangeLength {
+    accent-color: orangered;
+    cursor: pointer;
+}
+
+.showLength {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    margin-left: 12px;
+}
+
+.checkBox {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    margin-left: 6px;
+}
+
+input[type="checkbox"] {
+    cursor: pointer;
+}
+
+.tickBox {
+    margin-left: 20px;
+}
